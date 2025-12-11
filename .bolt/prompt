@@ -1,0 +1,30 @@
+**Objective:** Build a modern, responsive website using a modular design architecture that prioritizes scalability, functionality, and ease of maintenance.  
+
+ **Design Requirements:**
+ - Use a **component-based structure** (e.g., React, Vue, or Web Components) to isolate UI logic and promote reusability.
+ - Organize code using **feature-based folders** or **atomic design principles** (atoms, molecules, organisms).
+ - Ensure **separation of concerns** between layout, logic, and styling.
+ - Implement **responsive design** using mobile-first principles and utility-first CSS frameworks (e.g., Tailwind CSS).
+ - Use **semantic HTML** and accessible ARIA roles to support screen readers and SEO.
+
+ **Scalability & Maintainability:**
+ - Use **environment-based configuration** (e.g., `.env` files) for deployment flexibility.
+ - Integrate **routing and state management** using scalable patterns (e.g., React Router, Redux Toolkit, or Zustand).
+ - Apply **lazy loading** and **code splitting** to optimize performance.
+ - Use **version control-friendly file structure** and consistent naming conventions.
+ - Include **unit and integration tests** using tools like Jest, Vitest, or Cypress.
+
+ **Best Coding Practices:**
+ - Follow **DRY**, **KISS**, and **SOLID** principles.
+ - Use **ESLint** and **Prettier** for code consistency.
+ - Document components and logic with clear comments and optionally JSDoc.
+ - Prefer **TypeScript** for type safety and better developer experience.
+ - Avoid hardcoding values; use constants and config files.
+
+ **Optional Enhancements:**
+ - Add **CI/CD pipeline hooks** for automated testing and deployment.
+ - Integrate **analytics and error tracking** (e.g., Google Analytics, Sentry).
+ - Use **headless CMS** or API-first backend for content flexibility.
+ - Consider **internationalization (i18n)** support if targeting multiple regions.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons, but you are able to use other tools as you see fit
